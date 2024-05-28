@@ -1,5 +1,5 @@
 <script setup>
-import { GmailIcon, TelegramIcon, BloggerIcon, XIcon, MastodonIcon, GitHubIcon } from 'vue3-simple-icons'
+import { GmailIcon, GitHubIcon } from 'vue3-simple-icons'
 
 const email = ref(null)
 onMounted(() => {
@@ -16,17 +16,17 @@ onMounted(() => {
       >Sink</a>
       <a
         class="mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0"
-        href="https://html.zone"
+        href="https://google.com"
         target="_blank"
       >
-        &copy; {{ new Date().getFullYear() }} Products of HTML.ZONE
+        &copy; {{ new Date().getFullYear() }} Products of SLink
       </a>
       <span
         class="inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start"
       >
         <a
           ref="email"
-          href="mailto:sink.cool$miantiao.me"
+          href="mailto:sink.cool$gamil.com"
           title="Email"
           class="text-gray-400 hover:text-gray-500"
         >
@@ -35,7 +35,7 @@ onMounted(() => {
             class="w-6 h-6"
           />
         </a>
-        <a
+        <!-- <a
           href="https://t.me/htmlzone"
           target="_blank"
           title="Telegram"
@@ -69,21 +69,10 @@ onMounted(() => {
             class="w-6 h-6"
           />
         </a>
+ -->
 
         <a
-          href="https://miantiao.me/@chi"
-          target="_blank"
-          title="Mastodon"
-          class="text-gray-400 hover:text-gray-500"
-        >
-          <span class="sr-only">Mastodon</span>
-          <MastodonIcon
-            class="w-6 h-6"
-          />
-        </a>
-
-        <a
-          href="https://github.com/ccbikai"
+          href="https://github.com/"
           target="_blank"
           title="GitHub"
           class="text-gray-400 hover:text-gray-500"
